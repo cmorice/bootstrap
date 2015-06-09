@@ -6,6 +6,19 @@ body {
   text-align: center;
 }
 
+/*#navbar li.active a {
+    color: rgb(170, 63, 85);
+}*/
+
 #ingredients dt {
  text-align: left;   
 }
+
+#detail div {
+    padding : 0px;
+}
+
+div#recette {
+    padding: 10px;
+}
+
