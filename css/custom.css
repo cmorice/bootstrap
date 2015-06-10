@@ -1,6 +1,7 @@
 body {
   padding-top: 50px;
 }
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -10,6 +11,25 @@ body {
     color: rgb(170, 63, 85);
 }*/
 
+h2 {
+    font-size: 21px;   
+    padding: 10px 15px;
+    margin: 0px;
+    display: inline;
+}
+
+h3 {
+    padding:10px;
+    margin: 0px;
+    background-color: rgb(229, 239, 234);
+}
+
+#header{
+/*    background-color: rgb(170, 63, 85);*/
+   color: black;
+  background-color: white;
+}
+
 #ingredients dt {
  text-align: left;   
 }
@@ -17,8 +37,12 @@ body {
 #detail div {
     padding : 0px;
 }
-
-div#recette {
-    padding: 10px;
+#detail div.content {
+    padding : 10px;
 }
 
+.btn-primary {
+  color: white;
+  background-color: rgb(170, 63, 85);
+  border-color: rgb(170, 63, 85);
+}
