@@ -1,5 +1,6 @@
 body {
   padding-top: 50px;
+    font-family: Raleway,serif;
 }
 
 .starter-template {
@@ -11,11 +12,15 @@ body {
     color: rgb(170, 63, 85);
 }*/
 
+#navbar {
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
 h2 {
     font-size: 21px;   
-    padding: 10px 15px;
+    padding: 20px 15px;
     margin: 0px;
-    display: inline;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -28,6 +33,25 @@ h3 {
 /*    background-color: rgb(170, 63, 85);*/
    color: black;
   background-color: white;
+}
+
+#categories {
+    margin: 10px;
+}
+
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: rgb(170, 63, 85);
+}
+
+#categories .row {
+/* height: 220px;  */ 
+}
+
+#categories img {
+    padding: 5px;
+/*    height: 220px;*/
 }
 
 #ingredients dt {
