@@ -13,7 +13,8 @@ body {
 }*/
 
 #navbar {
-font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+       text-transform: uppercase;
 }
 
 h2 {
@@ -49,7 +50,7 @@ a.thumbnail.active {
 /* height: 220px;  */ 
 }
 
-#categories img {
+#categories img, #liste img {
     padding: 5px;
 /*    height: 220px;*/
 }
@@ -69,4 +70,9 @@ a.thumbnail.active {
   color: white;
   background-color: rgb(170, 63, 85);
   border-color: rgb(170, 63, 85);
+}
+
+.caption {
+    text-align: center;
+    text-transform: uppercase;
 }
